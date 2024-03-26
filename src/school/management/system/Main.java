@@ -24,16 +24,16 @@ public class Main {
         studentList.add(vitoria);
 
         School ghs = new School(teacherList,studentList);
-        System.out.println("GHS has earned "+ ghs.getTotalMoneyEarned());
+        System.out.println("GHS ganhou "+ ghs.getTotalMoneyEarned());
 
         vinicius.payTaxas(2000);
         duda.payTaxas(1500);
-        System.out.println("GHS has earned $"+ ghs.getTotalMoneyEarned());
+        System.out.println("GHS ganhou $"+ ghs.getTotalMoneyEarned());
 
         System.out.println("--------Making SCHOOL PAY SALARY------");
         liza.rebeceSalario(liza.getSalario());
-        System.out.println("GHS has spent for salary to " + liza.getName()
-        +" and now has $" + ghs.getTotalMoneyEarned());
+        System.out.println("GHS gastou para " + liza.getName()
+        +" e agora tem $" + ghs.getTotalMoneyEarned());
 
         System.out.println(vitoria);
 

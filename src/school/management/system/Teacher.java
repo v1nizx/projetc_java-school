@@ -42,8 +42,8 @@ public Teacher(int id, String name, int salario){
     }
     @Override
     public String toString(){
-    return "Name of the Teacher: " + name
-            +" Total salary earned so far $"
+    return "Nome do professor: " + name
+            +" Salário total recebido até agora $"
             + salarioEarned;
     }
 }
